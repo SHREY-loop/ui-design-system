@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System - Component Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-palette"></i>
+                <span>Design System</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#colors" class="nav-link">Colors</a>
+                <a href="#typography" class="nav-link">Typography</a>
+                <a href="#components" class="nav-link">Components</a>
+                <a href="#spacing" class="nav-link">Spacing</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Design System & Component Library</h1>
+            <p>A comprehensive design system with reusable components, design tokens, and implementation guidelines</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">View Figma</button>
+                <button class="btn btn-secondary">Download Assets</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="colors" class="section">
+            <h2>Color Palette</h2>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-swatch primary"></div>
+                    <div class="color-info">
+                        <h3>Primary</h3>
+                        <p>#6366f1</p>
+                        <p>Main brand color for buttons, links, and primary actions</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-swatch secondary"></div>
+                    <div class="color-info">
+                        <h3>Secondary</h3>
+                        <p>#f59e0b</p>
+                        <p>Secondary actions and highlights</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-swatch success"></div>
+                    <div class="color-info">
+                        <h3>Success</h3>
+                        <p>#10b981</p>
+                        <p>Success states and positive feedback</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-swatch danger"></div>
+                    <div class="color-info">
+                        <h3>Danger</h3>
+                        <p>#ef4444</p>
+                        <p>Error states and destructive actions</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-swatch warning"></div>
+                    <div class="color-info">
+                        <h3>Warning</h3>
+                        <p>#f59e0b</p>
+                        <p>Warning states and caution messages</p>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-swatch info"></div>
+                    <div class="color-info">
+                        <h3>Info</h3>
+                        <p>#3b82f6</p>
+                        <p>Informational states and neutral actions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="typography" class="section">
+            <h2>Typography</h2>
+            <div class="typography-showcase">
+                <div class="type-scale">
+                    <h1>Heading 1 - 48px</h1>
+                    <h2>Heading 2 - 36px</h2>
+                    <h3>Heading 3 - 30px</h3>
+                    <h4>Heading 4 - 24px</h4>
+                    <h5>Heading 5 - 20px</h5>
+                    <h6>Heading 6 - 16px</h6>
+                </div>
+                <div class="body-text">
+                    <p class="text-large">Large body text - 18px</p>
+                    <p class="text-base">Base body text - 16px</p>
+                    <p class="text-small">Small body text - 14px</p>
+                    <p class="text-xs">Extra small text - 12px</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="components" class="section">
+            <h2>Components</h2>
+            
+            <div class="component-group">
+                <h3>Buttons</h3>
+                <div class="component-showcase">
+                    <button class="btn btn-primary">Primary Button</button>
+                    <button class="btn btn-secondary">Secondary Button</button>
+                    <button class="btn btn-success">Success Button</button>
+                    <button class="btn btn-danger">Danger Button</button>
+                    <button class="btn btn-outline">Outline Button</button>
+                    <button class="btn btn-ghost">Ghost Button</button>
+                </div>
+            </div>
+
+            <div class="component-group">
+                <h3>Form Elements</h3>
+                <div class="component-showcase">
+                    <div class="form-group">
+                        <label for="input1">Text Input</label>
+                        <input type="text" id="input1" placeholder="Enter your text">
+                    </div>
+                    <div class="form-group">
+                        <label for="select1">Select Dropdown</label>
+                        <select id="select1">
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea1">Textarea</label>
+                        <textarea id="textarea1" placeholder="Enter your message"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-group">
+                <h3>Cards</h3>
+                <div class="component-showcase">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Card Title</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>This is a basic card component with header and body sections.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary">Action</button>
+                        </div>
+                    </div>
+                    <div class="card card-elevated">
+                        <div class="card-body">
+                            <h4>Elevated Card</h4>
+                            <p>This card has additional elevation and shadow.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-group">
+                <h3>Alerts</h3>
+                <div class="component-showcase">
+                    <div class="alert alert-success">
+                        <i class="fas fa-check-circle"></i>
+                        <span>This is a success alert message.</span>
+                    </div>
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>This is a warning alert message.</span>
+                    </div>
+                    <div class="alert alert-danger">
+                        <i class="fas fa-times-circle"></i>
+                        <span>This is a danger alert message.</span>
+                    </div>
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i>
+                        <span>This is an info alert message.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-group">
+                <h3>Badges</h3>
+                <div class="component-showcase">
+                    <span class="badge badge-primary">Primary</span>
+                    <span class="badge badge-secondary">Secondary</span>
+                    <span class="badge badge-success">Success</span>
+                    <span class="badge badge-danger">Danger</span>
+                    <span class="badge badge-warning">Warning</span>
+                    <span class="badge badge-info">Info</span>
+                </div>
+            </div>
+
+            <div class="component-group">
+                <h3>Progress Bars</h3>
+                <div class="component-showcase">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-success" style="width: 60%"></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-warning" style="width: 45%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="spacing" class="section">
+            <h2>Spacing Scale</h2>
+            <div class="spacing-showcase">
+                <div class="spacing-item">
+                    <div class="spacing-visual spacing-xs"></div>
+                    <div class="spacing-info">
+                        <h4>Extra Small</h4>
+                        <p>4px</p>
+                    </div>
+                </div>
+                <div class="spacing-item">
+                    <div class="spacing-visual spacing-sm"></div>
+                    <div class="spacing-info">
+                        <h4>Small</h4>
+                        <p>8px</p>
+                    </div>
+                </div>
+                <div class="spacing-item">
+                    <div class="spacing-visual spacing-md"></div>
+                    <div class="spacing-info">
+                        <h4>Medium</h4>
+                        <p>16px</p>
+                    </div>
+                </div>
+                <div class="spacing-item">
+                    <div class="spacing-visual spacing-lg"></div>
+                    <div class="spacing-info">
+                        <h4>Large</h4>
+                        <p>24px</p>
+                    </div>
+                </div>
+                <div class="spacing-item">
+                    <div class="spacing-visual spacing-xl"></div>
+                    <div class="spacing-info">
+                        <h4>Extra Large</h4>
+                        <p>32px</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Design System. Built with ❤️ for consistency and scalability.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
