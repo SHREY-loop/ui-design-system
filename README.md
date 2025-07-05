@@ -22,7 +22,7 @@ A comprehensive design system with reusable components, design tokens, and imple
 
 ## 🚀 Live Demo
 
-View the live demo: [Portfolio Link]/projects/ui-design-system/
+View the live demo: http://127.0.0.1:5500/projects/ui-design-system/index.html
 
 ## 📸 Screenshots
 
@@ -194,7 +194,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Shrey Bhandari**
 - GitHub: [@SHREY-loop](https://github.com/SHREY-loop)
 - Email: b14utcher@gmail.com
-- Portfolio: [Your Portfolio Link]
+- Portfolio: http://127.0.0.1:5500/#projects
 
 ## 🙏 Acknowledgments
 
